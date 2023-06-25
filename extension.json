@@ -1,0 +1,36 @@
+{
+  "name": "GPT On The Go",
+  "description": "A Way To Use Chat-GPT In Replit ",
+  tools: [
+
+    {
+      name: "Example Extension",
+      icon: "/replit.svg",
+      handler: "/"
+    }
+
+  ],
+  icon: "/logo.svg",
+  longDescription: "GPT On The Go is a cutting-edge replit extension designed to bring the power of the GPT (Generative Pre-trained Transformer) language model directly to your fingertips. Developed as a versatile tool for everyday use, this extension allows you to access the capabilities of GPT-3.5 on various websites and platforms with ease and convenience.\n\nWith GPT On The Go, you can effortlessly generate high-quality written content, receive intelligent responses to your queries, and enjoy a more interactive online experience. The extension integrates seamlessly into your browser, providing a user-friendly interface that enhances your productivity and creativity.\n\nThis extension leverages the vast knowledge and contextual understanding of GPT-3.5 to assist you in various tasks. Whether you need assistance with drafting emails, writing essays, generating ideas, or simply seeking answers to questions, GPT On The Go offers a reliable and intelligent companion.\n\nThe extension boasts an intuitive interface, enabling you to interact with the GPT model effortlessly. You can input prompts, ask questions, or request suggestions, and GPT On The Go will generate relevant and coherent responses in real time. The language model's ability to comprehend the context and produce human-like text ensures that the generated content aligns with your needs.\n\nGPT On The Go prioritizes user privacy and data security. All communication with the GPT model occurs directly between your browser and the model, and no user data is stored or transmitted beyond the scope of the browsing session. You can use the extension with confidence, knowing that your information remains confidential and protected.\n\nWhether you're a professional writer, a student, or someone who frequently engages in online communication, GPT On The Go revolutionizes the way you interact with text. It provides a powerful AI-driven assistant that assists you in creating compelling content, generating ideas, and enhancing your overall online experience, all within the convenience of your browser.",
+  coverImages: [
+
+    {
+      path: "/cover.png",
+      label: "preview of extension"
+    }
+
+  ],
+  scopes: [
+
+    {
+      name: "read",
+      reason: "Read any file in your Repl"
+    },
+
+    {
+    name: "write-exec",
+    reason: "Write to any file in your Repl and execute any code"
+  }
+
+  ]
+}
