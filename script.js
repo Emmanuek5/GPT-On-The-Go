@@ -7,11 +7,14 @@ async function main() {
 
   // Event Listeners
 
+
   // Create a directory/folder named 'test' at root level when #create_test_dir is clicked
   document.getElementById("create_test_dir").addEventListener("click", async () => {
     await replit.fs.createDir('test');
 
     // Show a confirmation
+    console.log("Hello
+                ")
     await replit.messages.showConfirm("Folder Created")
   });
 
@@ -29,7 +32,7 @@ async function main() {
 
     // Show the files and folders in #file_folder_list
     document.getElementById("file_folder_list").innerHTML = "";
-    for(const child of children) {
+    for (const child of children) {
       const li = document.createElement("li");
       li.innerText = child.filename;
       document.getElementById("file_folder_list").appendChild(li);
