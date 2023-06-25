@@ -13,8 +13,7 @@ async function main() {
     await replit.fs.createDir('test');
 
     // Show a confirmation
-    console.log("Hello
-                ")
+    
     await replit.messages.showConfirm("Folder Created")
   });
 

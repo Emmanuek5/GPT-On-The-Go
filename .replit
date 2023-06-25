@@ -183,3 +183,7 @@ isExtension = true
 buildCommand = " "
 outputDirectory = "."
 extensionID = "d3a2711b-8580-4cb5-a76f-3967ee770b8f"
+
+[auth]
+pageEnabled = true
+buttonEnabled = false
