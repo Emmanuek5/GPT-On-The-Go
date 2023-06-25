@@ -4,8 +4,8 @@
   tools: [
 
     {
-      name: "Example Extension",
-      icon: "/replit.svg",
+      name: "GPT On The Go",
+      icon: "/logo.svg",
       handler: "/"
     }
 
